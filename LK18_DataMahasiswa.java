@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Latihan{
+public class LK18_DataMahasiswa{
     public static void main (String []args){
         Scanner input = new Scanner (System.in);
         ArrayList<String> NAMA = new ArrayList<>();
@@ -74,4 +74,5 @@ public class Latihan{
 
         input.close();
     }
+
 }
