@@ -6,12 +6,13 @@ public class LK20_KontakPengguna {
         String again;
 
         do{
-            String [] nama = new String [5];
-            String [][] data = new String [5][5];
-
             System.out.print("Masukkan jumlah kontak: ");
             int kontak = input.nextInt();
             input.nextLine();
+
+            String [] nama = new String [kontak];
+            String [][] data = new String [kontak][kontak];
+
 
             for (int i = 0; i < kontak; i++){
                 System.out.println("Kontak ke-"+(i+1));
@@ -38,3 +39,4 @@ public class LK20_KontakPengguna {
             input.close();
     }
 }
+
