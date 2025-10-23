@@ -10,8 +10,8 @@ public class LK20_KontakPengguna {
             int kontak = input.nextInt();
             input.nextLine();
 
-            String [] nama = new String [5];
-            String [][] data = new String [5][5];
+            String [] nama = new String [kontak*3];
+            String [][] data = new String [kontak*3][kontak*3];
 
 
             for (int i = 0; i < kontak; i++){
@@ -39,4 +39,5 @@ public class LK20_KontakPengguna {
             input.close();
     }
 }
+
 
